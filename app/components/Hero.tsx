@@ -17,6 +17,7 @@ export default function Hero() {
 
         {/* Left Content */}
         <div>
+
           <p className="text-zinc-500 uppercase tracking-[0.3em] mb-6">
             Hyderabad, India
           </p>
@@ -33,6 +34,7 @@ export default function Hero() {
             applications.
           </p>
 
+          {/* Main Buttons */}
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
@@ -48,6 +50,34 @@ export default function Hero() {
               className="border border-zinc-700 px-7 py-3 rounded-full hover:border-white transition"
             >
               Download Resume
+            </a>
+
+          </div>
+
+          {/* Social Links */}
+          <div className="flex flex-wrap gap-3 mt-6">
+
+            <a
+              href="https://github.com/RohanThakur1927"
+              target="_blank"
+              className="border border-zinc-800 px-5 py-2 rounded-full text-sm hover:border-white hover:text-white transition"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/roha-nthakur/"
+              target="_blank"
+              className="border border-zinc-800 px-5 py-2 rounded-full text-sm hover:border-white hover:text-white transition"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="mailto:rohanthakur2332@gmail.com"
+              className="border border-zinc-800 px-5 py-2 rounded-full text-sm hover:border-white hover:text-white transition"
+            >
+              Email
             </a>
 
           </div>
@@ -77,6 +107,7 @@ export default function Hero() {
             </div>
 
           </div>
+
         </div>
 
         {/* Right Content */}

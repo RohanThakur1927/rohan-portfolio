@@ -17,18 +17,20 @@ export default function Navbar() {
         });
       },
       {
-        threshold: 0.3,
+        threshold: 0.4,
       }
     );
 
-    sections.forEach((section) => observer.observe(section));
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
 
     return () => observer.disconnect();
   }, []);
 
   const linkClass = (section: string) =>
     active === section
-      ? "text-white border-b-2 border-white pb-1"
+      ? "text-white relative after:absolute after:left-0 after:-bottom-2 after:w-full after:h-px after:bg-white"
       : "text-zinc-400 hover:text-white transition";
 
   return (
@@ -42,7 +44,7 @@ export default function Navbar() {
           ROHAN THAKUR
         </a>
 
-        <div className="flex gap-8 text-sm">
+        <div className="hidden md:flex gap-8 text-sm">
 
           <a href="#about" className={linkClass("about")}>
             About
@@ -52,8 +54,16 @@ export default function Navbar() {
             Experience
           </a>
 
+          <a href="#skills" className={linkClass("skills")}>
+            Skills
+          </a>
+
           <a href="#projects" className={linkClass("projects")}>
             Projects
+          </a>
+
+          <a href="#certifications" className={linkClass("certifications")}>
+            Certifications
           </a>
 
           <a href="#contact" className={linkClass("contact")}>
@@ -61,6 +71,7 @@ export default function Navbar() {
           </a>
 
         </div>
+
       </div>
     </nav>
   );

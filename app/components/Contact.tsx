@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="max-w-7xl mx-auto px-8 pt-24 py-12"
+      className="max-w-7xl mx-auto px-8 pt-24 py-4"
     >
       <FadeIn>
 
@@ -40,7 +40,7 @@ export default function Contact() {
             </h2>
 
             <p className="text-zinc-400 text-lg md:text-xl max-w-3xl mt-10 leading-9">
-              I'm open to Data Engineering, Enterprise Automation,
+              I'm open to Data Science, Enterprise Automation,
               Backend Development and Software Engineering opportunities.
               Whether it's a project, collaboration or career opportunity,
               I'd love to connect.

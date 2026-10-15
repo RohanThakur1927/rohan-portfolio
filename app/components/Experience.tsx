@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="max-w-7xl mx-auto px-8 py-24"
+      className="max-w-7xl mx-auto px-8 py-10"
     >
       <FadeIn>
 
@@ -48,7 +48,7 @@ export default function Experience() {
 
                 <div>
                   <p className="text-zinc-500">
-                    July 2025 — Present
+                    July 2025 — July 2026
                   </p>
                 </div>
 

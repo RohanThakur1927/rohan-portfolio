@@ -7,10 +7,6 @@ export default function Skills() {
       description: "Automation, Data Processing & Backend Development",
     },
     {
-      title: "Java",
-      description: "Object-Oriented Programming & Enterprise Applications",
-    },
-    {
       title: "JavaScript",
       description: "Modern Web Development & Interactive Interfaces",
     },
@@ -29,10 +25,6 @@ export default function Skills() {
     {
       title: "MongoDB",
       description: "NoSQL Database & Document Storage",
-    },
-    {
-      title: "PostgreSQL",
-      description: "Relational Database & Advanced Querying",
     },
     {
       title: "Oracle Cloud",
@@ -55,7 +47,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="max-w-7xl mx-auto px-8 py-32"
+      className="max-w-7xl mx-auto px-8 py-12"
     >
       <FadeIn>
 

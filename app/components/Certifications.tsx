@@ -25,7 +25,7 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="max-w-7xl mx-auto px-8 py-32"
+      className="max-w-7xl mx-auto px-8 py-12"
     >
       <p className="text-zinc-500 uppercase tracking-[0.3em] mb-4">
         Certifications

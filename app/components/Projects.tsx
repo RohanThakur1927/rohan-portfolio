@@ -49,7 +49,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="max-w-7xl mx-auto px-8 py-32"
+      className="max-w-7xl mx-auto px-8 py-12"
     >
       <FadeIn>
 

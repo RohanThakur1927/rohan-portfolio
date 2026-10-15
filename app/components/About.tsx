@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="max-w-7xl mx-auto px-8 py-32"
+      className="max-w-7xl mx-auto px-8 py-12"
     >
       <FadeIn>
 
@@ -13,9 +13,9 @@ export default function About() {
         </p>
 
         <h2 className="text-5xl md:text-6xl font-bold leading-[0.95] mb-16">
-          Data Engineer &
+          Data Analyst &
           <br />
-          Automation Developer
+          Technology Enthusiast
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-10">
@@ -27,16 +27,16 @@ export default function About() {
             </h3>
 
             <p className="text-zinc-400 text-lg leading-9">
-              I design and build scalable automation workflows,
-              enterprise integrations, data pipelines and backend
-              systems that help businesses improve efficiency and
-              reduce manual effort.
+              Skilled in SQL, Python, Excel, Power BI, data 
+cleaning, data transformation, KPI tracking, and dashboard development. Experienced in translating 
+operational data into actionable insights, improving reporting accuracy, and supporting data-driven 
+business decisions.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-10">
 
               <span className="px-5 py-2 border border-zinc-700 rounded-full">
-                Data Engineering
+                Data Analysis
               </span>
 
               <span className="px-5 py-2 border border-zinc-700 rounded-full">
@@ -45,6 +45,10 @@ export default function About() {
 
               <span className="px-5 py-2 border border-zinc-700 rounded-full">
                 Python
+              </span>
+
+              <span className="px-5 py-2 border border-zinc-700 rounded-full">
+                SQL
               </span>
 
               <span className="px-5 py-2 border border-zinc-700 rounded-full">
@@ -66,7 +70,7 @@ export default function About() {
             </h3>
 
             <p className="text-zinc-400 text-lg leading-9">
-              Currently working as an Associate Analyst at
+              Worked as an Associate Analyst at
               Tech Mahindra for Parker Hannifin, focusing on
               enterprise automation, EDI workflows, OMS
               integrations and large-scale business process

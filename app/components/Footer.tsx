@@ -11,10 +11,9 @@ export default function Footer() {
           </h3>
 
           <p className="text-zinc-500 mt-4 max-w-md leading-7">
-            Data Engineer • Automation Developer
+            Data Analyst • Technology Enthusiast • Application Developer
             <br />
-            Building scalable systems, enterprise automation,
-            and data-driven solutions.
+            Building scalable systems & applications, Workflows.
           </p>
         </div>
 

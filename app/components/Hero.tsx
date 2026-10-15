@@ -35,7 +35,9 @@ export default function Hero() {
     let cancelled = false;
 
     const startVideo = () => {
-      if (!cancelled) video.play().catch(() => {});
+      if (!cancelled) {
+        video.play().catch(() => {});
+      }
     };
 
     const holdFinalFrame = () => {
@@ -46,18 +48,13 @@ export default function Hero() {
       }
     };
 
-    video.addEventListener("loadeddata", startVideo);
     video.addEventListener("ended", holdFinalFrame);
 
-    if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
-      startVideo();
-    } else {
-      video.load();
-    }
+    // Start playback immediately instead of waiting for loadeddata.
+    startVideo();
 
     return () => {
       cancelled = true;
-      video.removeEventListener("loadeddata", startVideo);
       video.removeEventListener("ended", holdFinalFrame);
     };
   }, []);

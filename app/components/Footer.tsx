@@ -46,8 +46,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="/Rohan_Thakur_Resume.pdf"
-            download
+            href="/Thakur_Rohan_Singh_resume.pdf"
             className="hover:text-white transition"
           >
             Resume

@@ -77,8 +77,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/Rohan_Thakur_Resume.pdf"
-            download
+            href="/Thakur_Rohan_Singh_resume.pdf"
             className="
               px-5
               py-2
@@ -144,8 +143,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/Rohan_Thakur_Resume.pdf"
-            download
+            href="/Thakur_Rohan_Singh_resume.pdf"
             onClick={() => setMenuOpen(false)}
             className="
               w-fit
